@@ -23,6 +23,8 @@ gulp.task("start", () => {
     exec('node app/dist/main.js');
 });
 
-gulp.task('build', ['tslint', 'ts']);
+gulp.task('build', gulp.series('tslint', 'ts'));
+//gulp.task('build', ['tslint', 'ts']);
 
-gulp.task('run', ['build', 'start']);
+gulp.task('run', gulp.series('build', 'start'));
+//gulp.task('run', ['build', 'start']);
