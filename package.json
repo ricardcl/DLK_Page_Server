@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@angular/platform-server": "^8.2.14",
     "gulp": "^4.0.2",
     "gulp-tsconfig": "^0.1.0",
     "gulp-tslint": "^8.1.4",
