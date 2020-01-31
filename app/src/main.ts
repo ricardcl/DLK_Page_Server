@@ -1,6 +1,6 @@
 /* -- Create a server to serve the angular app files to a client -- */
 
-const portNb : number = 3000;
+const portNb : number = 4000;
 
 const path = require('path');
 const express = require('express');
